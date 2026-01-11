@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Purpose Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">Launch<span>Pro</span></div>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#cta" class="nav-btn">Sign Up</a>
+    </nav>
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Your Event / Product / Class</h1>
+      <p>Boost your skills, showcase your product, or host an amazing event. Everything in one place!</p>
+      <div class="hero-buttons">
+        <a href="#cta" class="btn btn-green">Sign Up / Order</a>
+        <a href="https://wa.me/2348012345678" class="btn">💬 WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section bg-light">
+    <h2>Why Join / Buy / Attend?</h2>
+    <div class="features">
+      <div class="card animate">
+        <h3>Expert Guidance</h3>
+        <p>Learn or use from professionals with real experience.</p>
+      </div>
+      <div class="card animate">
+        <h3>Interactive Experience</h3>
+        <p>Engage directly and get the best results.</p>
+      </div>
+      <div class="card animate">
+        <h3>Certified / Quality</h3>
+        <p>Receive a certificate or high-quality product/service.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>Gallery / Products / Classes</h2>
+    <div class="gallery">
+      <img src="images/product1.jpg" alt="Item 1" class="gallery-item">
+      <img src="images/product2.jpg" alt="Item 2" class="gallery-item">
+      <img src="images/product3.jpg" alt="Item 3" class="gallery-item">
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section id="cta" class="section bg-light">
+    <h2>Sign Up / Order Now</h2>
+    <p>Don’t miss this opportunity! Fill the form below to get started.</p>
+    <form id="signupForm" class="contact-box">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Your Message / Order Details" rows="4" required></textarea>
+      <button type="submit" class="btn btn-green">Submit</button>
+    </form>
+    <p class="contact-info">
+      💬 <a href="https://wa.me/2348012345678">WhatsApp</a> | 📞 0801 234 5678
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Multi-Purpose Landing Page</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
